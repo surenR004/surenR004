@@ -7,56 +7,30 @@
 
 ---
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<table>
+<tr>
+<td valign="middle" width="65%">
 
 ```c
-// suren_r.c — About Me
-
-#include <stdio.h>
-#include <string.h>
-
-typedef struct {
-    char name[32];
-    char location[32];
-    char degree[64];
-    char github[32];
-    char email[48];
-    char stack[6][32];
-    char currently_learning[3][32];
-    char fun_fact[128];
-} Developer;
-
-void motto(Developer *dev) {
-    printf("\"Debug the hardware, not just the code.\"\n");
-}
-
-int main() {
-    Developer suren = {
-        .name             = "Suren R",
-        .location         = "Chennai, India",
-        .degree           = "B.E ECE @ S.A Engineering College",
-        .github           = "surenR004",
-        .email            = "itsmesuren2004@gmail.com",
-        .stack            = {
-            "Embedded C", "STM32 / ESP32",
-            "CAN / SPI / I2C / UART",
-            "Altium Designer", "KiCad", "Git"
-        },
-        .currently_learning = {
-            "ADAS Fundamentals",
-            "ECU Basics",
-            "Embedded Linux"
-        },
-        .fun_fact = "I once debugged a CAN bus issue for 6 hours — "
-                    "it was a missing termination resistor."
-    };
-
-    motto(&suren);
-    return 0;
-}
+// whoami.c
+Developer suren = {
+  .name     = "Suren R",
+  .location = "Chennai, India",
+  .degree   = "B.E ECE @ SAEC",
+  .stack    = {"Embedded C", "STM32",
+               "ESP32", "CAN/SPI/I2C"},
+  .learning = {"ADAS", "ECU", "Linux"},
+  .motto    = "Debug the hardware,
+               not just the code."
+};
 ```
 
-<br clear="right"/>
+</td>
+<td valign="middle" width="65%" align="center">
+<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="300"/>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -108,11 +82,17 @@ int main() {
 <div align="center">
 
 <a href="https://github.com/surenR004">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=surenR004&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surenR004&theme=tokyonight"/>
 </a>
 <a href="https://github.com/surenR004">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surenR004&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surenR004&theme=tokyonight"/>
 </a>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surenR004&theme=tokyonight" width="100%"/>
 
 </div>
 
@@ -231,7 +211,7 @@ int main() {
 
 ### 📬 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Suren%20R-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suren-r-/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Suren%20R-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/suren-r)
 [![GitHub](https://img.shields.io/badge/GitHub-surenR004-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/surenR004)
 [![Email](https://img.shields.io/badge/Gmail-itsmesuren2004@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:itsmesuren2004@gmail.com)
 
