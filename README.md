@@ -231,7 +231,7 @@ int main() {
 
 ### 📬 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Suren%20R-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/suren-r)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Suren%20R-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suren-r-/)
 [![GitHub](https://img.shields.io/badge/GitHub-surenR004-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/surenR004)
 [![Email](https://img.shields.io/badge/Gmail-itsmesuren2004@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:itsmesuren2004@gmail.com)
 
